@@ -2,7 +2,7 @@
 export const expectedData = [
     {
         id: 3,
-        name: 'Rick Sanchezzzzz',
+        name: 'Rick Sanchez',
         image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
         status: 'Alive',
         type: '',
