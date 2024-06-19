@@ -11,6 +11,7 @@ const maxPage = 1;
 const page = 1;
 const searchQuery = '';
 
+// mochUp Data, can be deleted later...
 const expectedData = {
     id: 3,
     name: 'Rick Sanchezzzzz',
@@ -19,8 +20,6 @@ const expectedData = {
     type: '',
     episode: ['aojlk', 'opikajmskd', 'oasjnd'],
 };
-
-// const { id, name, image, status, type, episode } = expectedData;
 
 function CharacterCard({ id, name, image, status, type, episode }) {
     const liElement = document.createElement('li');
