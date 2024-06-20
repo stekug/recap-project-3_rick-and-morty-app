@@ -1,7 +1,7 @@
 function CharacterCard({ id, name, image, status, type, episode }) {
-    const liElement = document.createElement('li');
-    liElement.classList.add('card');
-    liElement.innerHTML = `<div class="card__image-container">
+  const liElement = document.createElement("li");
+  liElement.classList.add("card");
+  liElement.innerHTML = `<div class="card__image-container">
   <img
     class="card__image"
     src="${image}"
@@ -20,7 +20,7 @@ function CharacterCard({ id, name, image, status, type, episode }) {
     <dd class="card__info-description">${episode.length}</dd>
   </dl>
 </div>`;
-    return liElement;
+  return liElement;
 }
 
 export default CharacterCard;
