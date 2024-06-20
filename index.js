@@ -13,7 +13,7 @@ const pagination = document.querySelector('[data-js="pagination"]');
 
 // States
 const maxPage = 42;
-let page = 41;
+let page = 1;
 // pagination.textContent = `${page} / ${maxPage}`;
 const searchQuery = "";
 
